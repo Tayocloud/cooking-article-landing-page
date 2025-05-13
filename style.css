@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid plum;
+    background: rgb(169, 169, 204);
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    transition: all 150ms ease-in-out;
+    }
+
+button:hover {
+    background: rgb(255, 0, 221);
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.theme {
+    font-size: 12px;
+    background: black;
+    color: white;
+    padding: 10px 15px;
+}
+.theme:hover {
+    color: black;
+    background: white;
+}
+.cooking-intro {
+    width: 100%;
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+.cooking-intro:hover {
+    transform: scale(1.4);
+    filter: contrast(80%);
+}
+.grid {
+    display: grid;
+    margin: 15px 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-gap: 20px;
+    
+    
+}
+.grid img {
+    width: 100%;
+    transition: all 150ms ease-in-out;
+    border-radius: 10px;
+    
+}
+.grid img:hover {
+    transform: scale(1.4);
+}
+.dark {
+    background: black;
+    color: white;
+
+}
+.dark .container {
+    background: rgba(255, 255, 255, 0.1);
+}
+.dark a {
+    color: plum;
+}
+.no-underline {
+    text-decoration: none;
+}
